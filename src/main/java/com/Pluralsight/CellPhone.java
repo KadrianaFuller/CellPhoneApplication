@@ -8,10 +8,8 @@ public class CellPhone {
      */
 
     private int serialNumber;
-    private String model;
-    private String carrier;
-    private String phoneNumber;
-    private String owner;
+    private String model, carrier, phoneNumber, owner;
+
 
     // Provide the Default values for all String data types in the constructor
     public CellPhone() {
@@ -21,11 +19,10 @@ public class CellPhone {
         this.phoneNumber = "";
         this.owner = "";
 
-
     }
 
     // Provide Getters
-    public int getSerialNumber() {
+    public int getSerialNumber(int serialNumber) {
         return this.serialNumber;
     }
 

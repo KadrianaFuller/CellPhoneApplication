@@ -33,15 +33,16 @@ public class CellPhoneApplication {
         String owner = in.next();
 
 
-        phone.getPhoneNumber( phone);
-        phone.getModel(model);
-        phone.getCarrier(carrier);
-        phone.getPhoneNumber(phone);
-        phone.getOwner(owner);
+        phone.setSerialNumber(serialNumber);
+        phone.setModel(model);
+        phone.setCarrier(carrier);
+        phone.setPhoneNumber(phoneNumber);
+        phone.setOwner(owner);
 
         System.out.println("\n---------\n");
 
         phone.printPhoneInformation();
+
 
 
 
